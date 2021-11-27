@@ -1,0 +1,14 @@
+{
+    "participants":[
+        {"id":"0", "name":"Aaron", "email":"aaron@example.com", "cannotbuyfor":["1"]},
+        {"id":"1", "name":"Bill", "email":"bill@example.com", "cannotbuyfor":["0"]},
+        {"id":"2", "name":"Charlie", "email":"charlie@example.com", "cannotbuyfor":["3"]},
+        {"id":"3", "name":"Daniel", "email":"daniel@example.com", "cannotbuyfor":["2"]},
+        {"id":"4", "name":"Edward", "email":"edward@example.com", "cannotbuyfor":["5"]},
+        {"id":"5", "name":"Frank", "email":"frank@example.com", "cannotbuyfor":["4"]},
+        {"id":"6", "name":"Greg", "email":"greg@example.com", "cannotbuyfor":["7","5"]},
+        {"id":"7", "name":"Herbert", "email":"herbert@example.com", "cannotbuyfor":["6","5"]},
+        {"id":"8", "name":"Ian", "email":"ian@example.com", "cannotbuyfor":["1","7"]},
+        {"id":"9", "name":"James", "email":"james@example.com", "cannotbuyfor":[]}
+    ]
+}

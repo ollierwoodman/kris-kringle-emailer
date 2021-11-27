@@ -1,0 +1,8 @@
+{
+    "emailTemplateFileName":"emailtemplate.html",
+    "participantsFileName":"participants.json",
+    "customTextFileName":"customtext.json",
+    "hostEmailAddress":"example@gmail.com",
+    "hostEmailPassword":"_____GMAIL APP PASSWORD HERE_____",
+    "totalBudget":100
+}
