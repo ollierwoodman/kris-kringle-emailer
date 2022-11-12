@@ -4,5 +4,6 @@
     "customTextFileName":"customtext.json",
     "hostEmailAddress":"example@gmail.com",
     "hostEmailPassword":"_____GMAIL APP PASSWORD HERE_____",
-    "totalBudget":100
+    "totalBudget":100,
+    "numberOfAttempts":100000
 }

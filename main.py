@@ -64,7 +64,7 @@ receiverids = []
 for participant in participantObjectsArray:
     receiverids.append(participant.id)
 
-attempts = 1000000
+attempts = config['numberOfAttempts']
 for i in range(attempts):
     receiveridscopy = receiverids.copy()
 
