@@ -1,4 +1,6 @@
-### Overview
+# Kris Kringle Emailer
+
+## Overview
 
 This is a tool that can be used to host a Kris Kringle (Secret Santa) syndicate without the host knowing who got who.
 
@@ -6,15 +8,15 @@ By defining the following values, the tool will randomly generate a pairs of gif
 
 When a valid set of pairs has been found, the tool uses the defined gmail account to send an email to each participant to tell them about the event.
 
-### Here is a summary of the possible configurations and where to find them:
-#### customtext.json
+## Here is a summary of the possible configurations and where to find them:
+### customtext.json
 'kktitle' - The title of your Kris Kringle event, e.g. William's Secret Santa
 
 'contactname' - The name of the person sending the emails and organising the event, e.g. William
 
 'contactemailaddress' - The email address of the person sending the emails and organising the event, e.g. bill@example.com
 
-#### config.json
+### config.json
 'emailTemplateFileName' - The name of the email template JSON file 
 
 'participantsFileName' - The name of the participants JSON file
@@ -29,7 +31,7 @@ When a valid set of pairs has been found, the tool uses the defined gmail accoun
 
 'maxNumberOfAttempts' - The maximum number of random pairings to generate before failing (between 100,000 and 10,000,000 should be good)
 
-#### emailtemplate.html
+### emailtemplate.html
 The tool looks for an replace the following text strings in the email template so that the right data appears in the right email. These strings should be present and visible in the HTML.
 
 `{kktitle}`,`{contactname}`,`{contactnameemailaddress}` - As in customtext.json
@@ -40,7 +42,7 @@ The tool looks for an replace the following text strings in the email template s
 
 `{totalbudget}` - The amount of money each gift giver is expected to spend
 
-#### participants.json
+### participants.json
 This file contains the particpants of the Kris Kringle event the format is defined below:
 
 Each element of the `participants` array contains a JSON object with the following values:
